@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="calc">
+            calc
+        </div>
+        <div class="container1">
+            <input type="text" id="res">
+        </div>
+        <div class="container2">
+                <input type="button" value="7" class="button item7" onClick="display('7')">
+                <input type="button" value="8" class="button item8" onClick="display('8')">
+                <input type="button" value="9" class="button item9" onClick="display('9')">
+                <input type="button" value="DEL" class="button del" onclick="del()">
+                <input type="button" value="4" class="button item4" onClick="display('4')">
+                <input type="button" value="5" class="button item5" onClick="display('5')">
+                <input type="button" value="6" class="button item6" onClick="display('6')">
+                <input type="button" value="+" class="button item+" onClick="display('+')">
+                <input type="button" value="1" class="button item1" onClick="display('1')">
+                <input type="button" value="2" class="button item2" onClick="display('2')">
+                <input type="button" value="3" class="button item3" onClick="display('3')">
+                <input type="button" value="-" class="button item-" onClick="display('-')">
+                <input type="button" value="." class="button item." onClick="display('.')">
+                <input type="button" value="0" class="button item0" onClick="display('0')">
+                <input type="button" value="/" class="button item/" onClick="display('/')">
+                <input type="button" value="x" class="button itemx" onClick="display('*')">
+                <input type="button" value="RESET" class="button reset" onclick="clr()">
+                <input type="button" value="=" class="button equal" onclick="solve()"> 
+        </div>
+
+        <script defer src="./script.js" defer ></script>
+    </body>
+</html>
